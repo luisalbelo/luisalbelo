@@ -1,6 +1,22 @@
 *{
-    background-color: dimgray;
+    box-sizing: border-box;
+    background-color: #000000;
     text-align: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    width: min(100%, 1100px);
+    margin-inline: auto;
+}
+@media (min-width: 768px){
+    grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
 }
 h1{
     color: #f1f1f1;
