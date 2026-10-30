@@ -25,3 +25,10 @@ h1{
 h2{
     color: #f58f00;
 }
+.letterWhite{
+    color: #f1f1f1;
+}
+header{
+    background-color: #1a1a2e;
+    padding: 1rem;
+}
